@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Biobiz Consulting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        
+        html, body {
+            width: 100%;
+             overflow-x: hidden; 
+        }
+
+        
+        .desktop-video {
+            display: block;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            
+        }
+
+        /* Hide mobile video by default */
+        .mobile-video {
+            display: none;
+            overflow: hidden;
+            
+        }
+
+       
+        @media (max-width: 768px) {
+            .desktop-video {
+                display: none; 
+            }
+
+            .mobile-video {
+                display: block; 
+                width: 100%;
+                height: auto;
+            }
+            
+        }
+
+        
+        header, footer {
+            width: 100%;
+        }
+
+        
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+         .cont{
+             
+            height: fit-content;
+         }
+
+
+
+       .sidebar{
+        background-color: #1FE089;
+       }
+
+
+
+.h2{
+    font-weight: bolder;
+    
+}
+
+        
+
+        .box {
+      height: 100px;
+      background-color: #4CAF50;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+
+    .custom-height {
+      height: 100vh; 
+    }
+
+
+
+    @media (min-width: 768px) {
+        .custom-height {
+      height: 60vh; 
+    }
+    .para{
+                font-size: 20px;
+            }
+        }
+
+
+    .navbar-inphone{
+    background-color: #ffffff7a;
+    position: absolute;
+
+    top: 0;
+    right: -80vw;
+    padding: 5px;
+    width: 80vw;
+    height: 100vh;
+     /* border: 2px solid; */
+    backdrop-filter: blur(13px);
+    border-radius: 20px 0 0 20px;
+
+   }
+
+   .cross{
+    cursor: pointer;
+   }
+
+
+ .arrr{
+    position: relative;
+    transform: translate(-200%);
+    opacity:0;
+ }
+
+
+ .btn{
+    background-color:#007FE0 !important;
+    box-shadow:  4px 10px 12px rgba(0, 0, 0, 0.3)
+ }
+
+ .gray{
+    background-color: #D6D6D6;
+ }
+
+ .title{
+    background-color: #E06100;
+ }
+
+
+ .footer{
+    font-weight: 700;
+ }
+
+
+    </style>
+</head>
+<body class="bg-light text-dark ">
+
+
+
+
+    <div class="cont ">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm ">
+    
+           
+
+            <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top absolute">
+                <div class="container-fluid">
+                    
+                    <img src="biobiz-logo.png" height="80px" width="120px"/>
+            
+                    <button class="navbar-toggler abc color-dark" type="button" data-bs-toggle="collapse" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                      
+            
+                    
+                    
+            
+            
+            
+            
+            
+                     <div class="navbar-inphone" id="">
+                        
+            
+                        <div class="cross p-2 ">
+                            <i class="fa-solid fa-xmark cross-icon fa-lg"></i> 
+                        </div>
+            
+            
+            
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item inter"><a href="#home" class="nav-link text-dark">Home</a></li>
+                            <li class="nav-item inter"><a href="#about" class="nav-link text-dark">About </a></li>
+                            <li class="nav-item inter"><a href="#about" class="nav-link text-dark">Indian Updates</a></li>
+                            <li class="nav-item inter"><a href="#opportunities" class="nav-link text-dark">Opportunities</a></li>
+                            <li class="nav-item inter"><a href="#biobiz" class="nav-link text-dark">Biobiz Consulting</a></li>
+                            <li class="nav-item inter"><a href="#innovation" class="nav-link text-dark">Innovation Insights</a></li>
+                            <li class="nav-item inter"><a href="#insight" class="nav-link text-dark" >Insight
+                               
+                            </a> </li>
+                            <li class="nav-item inter"><a href="#bring" class="nav-link text-dark">Bring</a></li>
+                            <li class="nav-item inter"><a href="#contact" class="nav-link text-dark">Contact</a></li>
+                       </ul>
+            
+            
+            
+                    </div>
+            
+            
+            
+            
+            
+            
+            
+                    
+            
+                     
+            
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                       
+                        
+                       
+   <ul class="navbar-nav ms-auto">
+    <li class="nav-item "><a href="#home" class="nav-link text-dark">Home</a></li>
+    <li class="nav-item "><a href="#about" class="nav-link text-dark">About</a></li>
+    <li class="nav-item "><a href="#about" class="nav-link text-dark">Indian Updates</a></li>
+    <li class="nav-item "><a href="#opportunities" class="nav-link text-dark">Opportunities</a></li>
+    <li class="nav-item "><a href="#biobiz" class="nav-link text-dark">Biobiz Consulting</a></li>
+    <li class="nav-item "><a href="#innovation" class="nav-link text-dark">Innovation Insights</a></li>
+    <li class="nav-item "><a href="#insight" class="nav-link text-dark insight">Insight  <i class="fa-solid fa-chevron-down"></i></a>
+    </li>
+    <li class="nav-item "><a href="#bring" class="nav-link text-dark">Bring</a></li>
+    <li class="nav-item "><a href="#contact" class="nav-link text-dark">Contact</a></li>
+    </ul>
+
+   
+  
+            
+                    </div>
+
+
+
+                    
+                </div>
+            </nav>
+
+
+
+
+        
+    </header>
+    
+   
+  
+
+
+
+
+    <main class="gray   "  >
+        
+        
+
+        <div class="tp " >
+
+            <div class="slide px-4 py-3 ">
+                  <p>Bioenergy</p>
+                  <p>Environmental Solutions </p>
+                  <p>Bio Products</p>
+                  <p>Bio-based Science & Tech Pathways</p>
+                  <p>Regional Biomass Residues</p>
+                  <p>India Biomass Residues</p>
+                  <p>Indian Bioeconomy</p>
+                  
+            </div>
+    
+        <div class="desktop-video ">
+            <video autoplay muted loop playsinline class="w-100" src="video.mp4"></video>
+        </div>
+      
+        <div class="mobile-video">
+            <video autoplay muted loop playsinline class="w-100" src="biobiz-mobile-video.mp4"></video>
+        </div>
+    
+    </div>
+ 
+    
+
+    <div class="container py-5 my-2 gray">
+        <div class="row g-4 align-items-stretch gray">
+  
+        
+           
+
+
+            
+<div class="col-lg-8 d-flex flex-column justify-content-between gray px-4 rounded">
+
+<div class="mx-4">
+    <p class="text-secondary">
+        At BioBiz, we are keen to capitalize on India’s rich biodiversity and the availability of large amounts of biomass residues to develop a sustainable bio-economy and attractive business opportunities for diverse stakeholders – farmers, rural stakeholders, end-use industries, entrepreneurs / startups, and financial investors.
+        
+        <div><br></div>
+        As part of a leading climate tech consulting firm, we will provide critical assistance with market intelligence, data-driven analyses, professional networking, and opportunities for relevant stakeholders to get effective visibility. 
+    </p>
+</div>
+
+
+
+
+ <div class="d-flex justify-content-center align-items-center fs-3 mt-2" >  <h2>Main Sections</h2></div>
+
+
+<div class="mt-5">
+    <div class="row g-5"> 
+       
+        <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center ">
+            <img src="opportunity.png" alt="Image 1" class="img-fluid img-logo  rounded">
+            <h3>Opportunities</h3>
+        </div>
+        <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center ">
+            <img src="consulting.png" alt="Image 2" class="img-fluid  img-logo rounded">
+            <h3>Consulting</h3>
+        </div>
+        <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center ">
+            <img src="insights.png" alt="Image 3" class="img-fluid ro img-logo unded">
+            <h3>Insights</h3>
+        </div>
+       
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center ">
+            <img src="innovations.png" alt="Image 4" class="img-fluid img-logo  rounded">
+            <h4>Innovation Insights</h4>
+        </div>
+        <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center ">
+            <img src="leaf.png" alt="Image 5" class="img-fluid rounde img-logo d">
+            <h4>Biomass Residue </h4>
+            <h4>Intelligence</h4>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            <div class="col-lg-4   gray  d-flex justify-content-center align-items-center right-card sidebar">
+               
+                <div class="tall-narrow-div  sidebar p-3  shadow-sm d-flex flex-column scroll-container">
+                    <h3 class="fs-5 text-center mb-3 py-2">INDIA UPDATES</h3>
+
+                   <div class="marq h-100  " >
+                    <marquee behavior="scroll" direction="up" loop="infinite" scrollamount="3" height="350" onstart="this.start();" >
+<p>Compressed Biogas Plants Using Cow Dung in Uttar Pradesh</p>
+<p>Steelmaking with Green Hydrogen: SAIL and John Cockerill India Collaborate</p>
+
+<p>Sustainable Aviation Fuel Facility: BPCL to Launch India’s First by 2027</p>
+
+
+<p>Green Hydrogen Solutions: NHPC Partners with GGGI</p>
+
+<p>India’s First Green Hydrogen Fuel Station Built by Amara Raja Infra in Leh</p>
+  <p>  Waste Disposal Plant in Rudrapur to Generate Biogas </p>
+ <p> Biochar Integration by Tata Steel in India to Reduce Emissions</p>
+ <p> India’s First Cowshed with Integrated CBG Plant Opens in Gwalior</p>
+ <p> Biochar Use in Steelmaking Explored as IIT (ISM) Dhanbad Partners with sentra.world</p>
+ <p> Ethanol Plant by Kisan Cooperative Sugar Mill in Pilibhit</p>
+ <p> World’s Largest Sustainable Aviation Fuel Plants By TruAlt</p>
+ <p> Biofuel production from Seaweed Biomass: HPCL partners with Sea6 Energy</p>
+ <p> Green Hydrogen Plant in Baddi: Oil India and Himachal Pradesh Power Corporation partner</p>
+ <p> Bio-CNG Plants in 2 Cow Shelters by Greater Noida Authority</p>
+ <p> Biogas Plant to Be Revived by Faridabad Municipal Corporation</p>
+ <p> Straw-Based Biogas Plant Commercialization</p>
+ <p> Biofuel from Carbon Dioxide Developed by IIT Guwahati</p>
+ <p> Biodiesel Deliveries: Aemetis India Completes $103 Million to OMCs</p>
+ <p> Green Hydrogen: TKIL Partners with Sohhytec</p>
+                    </marquee>
+                </div>
+                </div>
+
+
+            </div>
+  
+        </div>
+    </div>
+
+
+    <div class="container-fluid  title">
+        <div class="row flex-column align-items-center py-3 pt-5 title">
+            <div class="col-12 text-center my-3 ">
+                <h2>Other Sections</h2>
+            </div>
+            <div class="col-12 d-flex flex-wrap justify-content-center gap-5 my-3">
+               
+
+                <div class="p-2 title m-3" >
+                <a  class="btn rounded-1  bg-light pe-0 py-1  ps-2 one text-white fs-4 ">
+                India Updates <i class="arrr fa-solid fa-circle-arrow-right fs-5"></i>
+                </a>
+                </div>
+
+                 <div class="p-2 title m-3" >
+                <a  class="btn rounded-1 pe-0 py-1 ps-2  two text-white fs-4   ">
+                   Weekly Updates <i class="arrr fa-solid fa-circle-arrow-right fs-5"></i>
+                </a>
+                </div>
+
+            <div class="p-2 title m-3 " >
+                <a  class="btn rounded-1 pe-0 py-1  ps-2    three  text-white fs-4 ">   
+            BRING <i class="arrr fa-solid fa-circle-arrow-right fs-5"></i>
+                </a>
+           </div>
+
+    <div class="p-2 title m-3" >
+        <a  class="btn rounded-1 pe-0 py-1 ps-2  four text-white fs-4 "> 
+            India Biomass Residues <i class="arrr fa-solid fa-circle-arrow-right fs-5"></i>
+        </a>
+    </div>
+
+            </div>
+            <div class="d-flex justify-content-center mt-2 mb-5 text-white para  ">
+                BioBiz is a division of Energy Alternatives India (EAI)
+            </div>
+        </div>
+    </div>
+
+     
+
+
+  
+      
+</main>
+
+
+
+
+   
+
+
+   <div class="footer p-2 d-flex justify-content-center align-items-center">
+   
+   <div> Copyright © 2024 BioBiz. All rights reserved.</div>
+   </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
